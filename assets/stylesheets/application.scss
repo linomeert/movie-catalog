@@ -2,12 +2,7 @@ body {
   font-family: Helvetica;
 }
 
-#root {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 
 
 .single-movie .movie-poster {
@@ -15,4 +10,10 @@ body {
   width:200px;
   height:250px;
   background-position: center;
+}
+
+.movie-list {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 3px;
 }

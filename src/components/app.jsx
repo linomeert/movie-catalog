@@ -23,15 +23,13 @@ class App extends Component {
 
   render () {
     return (
-      <div>
+      <div class="container">
+        <h1>Movie Catalog</h1>
         <div className="search-bar">
           <SearchBar searchFunction={this.search} />
 
         </div>
-        <div className="movie-list">
-          <MovieList movies={this.state.movies} />
-
-        </div>
+        <MovieList movies={this.state.movies} />
       </div>
     );
   }
